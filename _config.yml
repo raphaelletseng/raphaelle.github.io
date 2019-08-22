@@ -1,3 +1,20 @@
-theme: jekyll-theme-minimal
 title: Raphaëlle Tseng
 description: A place to write about what I'm learning and the projects I'm interested in!
+
+email: raphaelletseng@gmail.com
+baseurl: ""
+url: "raphaelletseng.github.io"
+github_username: raphaelletseng
+linkedin_username: raphaelletseng
+
+markdown: kramdown
+mathjax: true
+theme: minima
+plugins:
+  - jekyll-feed
+
+include:
+  - assets
+  
+ 
+ 
