@@ -91,12 +91,18 @@ neo4j uses **CYPHER**, a declarative query language to get information from the 
 
 Nodes are represented by () or (n). To retrieve all the nodes in your graph use MATCH (n) RETURN n. () is an anonymous node. (n) tells the database 'for this query, use the variable n to represent nodes'. You can filter the type of node you are searching for by specifying labels, eg. (variable: Label1: Label2) eg. (p: Actor: Director) to get people who are both actors and directors. 
 
-CALL db.schema returns information about nodes, labels and relationships in the graph. It tells you what relationships exist and how nodes are linked so you get an overview of the the graph structure. 
+**CALL db.schema** returns information about nodes, labels and relationships in the graph. It tells you what relationships exist and how nodes are linked so you get an overview of the the graph structure. 
 
 **MATCH** performs a pattern match against the data in the graph eg. MATCH (variable) RETURN variable
 
-CALL db.propertyKeys returns all the property keys in the database.
+**CALL db.propertyKeys** returns all the property keys in the database.
 
+You can reutrn **type(n)** where n is a relationship and you want to know its type. 
+
+**WHERE** is also a key word to use in searches. 
+- Eg. MATCH (a)-[n]->(m) WHERE a:Person and type(n) = 'WROTE' AND m.movie RETURN a.name AS name, m.title as Movie
+- This can also be replaced by WHERE NOT to get all the people who do not relate to a property
+- WHERE is also useful for string manipulation queries. You can search for people whose name's **START WITH** 'Esther' or **CONTAINS** 'fun', or **WHERE** m.released **IN** [2000, 2004] to get all movies released in 2000 and 2004. 
 
 ### Examples
 - Retrieve nodes as list: MATCH (p:Person)-[:ACTED_IN]->(m:Movie) RETURN p.name, **collect(m.title)**
@@ -105,4 +111,9 @@ CALL db.propertyKeys returns all the property keys in the database.
 - Movies with at least 2 directors and other optional data: MATCH (m:Movie) with m, size((:Person)-[:DIRECTED]->(m)) AS directors WHERE directors >=2 OPTIONAL MATCH (p:Person)-[:REVIEWED]->(m) RETURN m.title, p.name
 
 **DISTINCT** retrieves only unique results
+
+## 4. Conclusion
+
+This is the basic understanding I have gained from following neo4j tutorials and reading around online for the last couple of days. It's a very fun software to play with, and helps to display data in a visually interesting and useful manner. In the future I'd like to continue learning to see how I can upload csv files and write more complex queries. 
+
 
