@@ -11,7 +11,7 @@ Graph Databases take business and user needs (i.e what you want your application
 - A node can be a person, place, thing etc. 
 - A relationship tells us how 2 nodes are associated
 
-![Image](https://github.com/raphaelletseng/raphaelletseng.github.io/blob/master/twitter-users-graph-database-model.png)
+![Image](https://github.com/raphaelletseng/raphaelletseng.github.io/blob/master/assets/img/twitter-users-graph-database-model.png)
 
 Nodes can be **labelled** with multiple labels to make it easier to group them. 
 You can add **properties** to nodes and relationships to add more information to the graph. 
