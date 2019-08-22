@@ -15,6 +15,7 @@ plugins:
 
 include:
   - assets
-  
+
+future: true
  
  
