@@ -11,20 +11,12 @@ Graph Databases take business and user needs (i.e what you want your application
 - A node can be a person, place, thing etc. 
 - A relationship tells us how 2 nodes are associated
 
-![Image](https://github.com/raphaelletseng/raphaelletseng.github.io/blob/master/assets/img/twitter-users-graph-database-model.png)
+![Image](/assets/img/twitter-users-graph-database-model.png)
 
 Nodes can be **labelled** with multiple labels to make it easier to group them. 
 You can add **properties** to nodes and relationships to add more information to the graph. 
 
-## 2. How do we query the graph?
-neo4j uses **CYPHER**, a declarative query language to get information from the graph. 
-
-- Eg. CREATE (:Label{Property})-[:RELATIONSHIP]->(Label{Property})
-- CREATE (:Person{name: "Harry"}) -[:LOVES] (:Person {name: "Tom"})
-
-neo4j supports java, JavaScript, Python, C# and Go drivers. 
-
-## 3. Creating a graph database
+## 2. Creating a graph database
 
 - CREATE (The Matrix: Movie {title: "The Matrix", released 1999, tagline: "Welcome to the Real World"})
 - CREATE (Keanu: Person {name: "Keanu Reeves", born: 1964})
@@ -88,3 +80,27 @@ WARNING: You should avoid creating duplicate nodes/relationships in a graph
 MERGE to create relationships
 - MERGE (variable: Label {nodeProperties})-[REL_TYPE]->(otherNode) RETURN variable
 - Eg. MERGE (a:Person {name: "Emma Watson"}) ON CREATE SET a.birthPlace = "Paris", a.born = 1990 RETURN a
+
+## 3. How do we query the graph?
+neo4j uses **CYPHER**, a declarative query language to get information from the graph. 
+
+- Eg. CREATE (:Label{Property})-[:RELATIONSHIP]->(Label{Property})
+- CREATE (:Person{name: "Harry"}) -[:LOVES] (:Person {name: "Tom"})
+
+Nodes are represented by () or (n). To retrieve all the nodes in your graph use MATCH (n) RETURN n. () is an anonymous node. (n) tells the database 'for this query, use the variable n to represent nodes'. You can filter the type of node you are searching for by specifying labels, eg. (variable: Label1: Label2) eg. (p: Actor: Director) to get people who are both actors and directors. 
+
+CALL db.schema returns information about nodes, labels and relationships in the graph. It tells you what relationships exist and how nodes are linked so you get an overview of the the graph structure. 
+
+**MATCH** performs a pattern match against the data in the graph eg. MATCH (variable) RETURN variable
+
+CALL db.propertyKeys returns all the property keys in the database.
+
+
+### Examples
+- Retrieve nodes as list: MATCH (p:Person)-[:ACTED_IN]->(m:Movie) RETURN p.name, **collect(m.title)**
+- Count: MATCH (p:PERSON)-[:ACTED_IN]->(m:Movie) RETURN m.title, count(p), collect(p.name)
+- Actors who have acted in exactly 5 movies: MATCH (a:Person)-[:ACTED_IN]->(m:Movie) WITH a, count(a), collect(m.title) WHERE count(a) = 5 RETURN a.name, collect (m.title)
+- Movies with at least 2 directors and other optional data: MATCH (m:Movie) with m, size((:Person)-[:DIRECTED]->(m)) AS directors WHERE directors >=2 OPTIONAL MATCH (p:Person)-[:REVIEWED]->(m) RETURN m.title, p.name
+
+**DISTINCT** retrieves only unique results
+
