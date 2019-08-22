@@ -1,6 +1,6 @@
 ## neo4j and Graph Databases
 
-#1. What is a graph database?
+# 1. What is a graph database?
 ** Node + Relationships**
 -A node can be a person, place, thing etc. 
 -A relationship tells us how 2 nodes are associated
@@ -10,7 +10,7 @@
 Nodes can be **labelled** with multiple labels to make it easier to group them. 
 You can add **properties** to nodes and relationships to add more information to the graph. 
 
-#2. How do we query the graph?
+# 2. How do we query the graph?
 neo4j uses **CYPHER**, a declarative query language to get information from the graph. 
 
 -Eg. CREATE (:Label{Property})-[:RELATIONSHIP]->(Label{Property})
@@ -18,7 +18,7 @@ neo4j uses **CYPHER**, a declarative query language to get information from the 
 
 neo4j supports java, JavaScript, Python, C# and Go drivers. 
 
-#3. Creating a graph database
+# 3. Creating a graph database
 
 -CREATE (The Matrix: Movie {title: "The Matrix", released 1999, tagline: "Welcome to the Real World"})
 -CREATE (Keanu: Person {name: "Keanu Reeves", born: 1964})
