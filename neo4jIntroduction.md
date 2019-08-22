@@ -1,7 +1,7 @@
 ## neo4j and Graph Databases
 
 # 1. What is a graph database?
-** Node + Relationships**
+**Node + Relationships**
 - A node can be a person, place, thing etc. 
 - A relationship tells us how 2 nodes are associated
 
