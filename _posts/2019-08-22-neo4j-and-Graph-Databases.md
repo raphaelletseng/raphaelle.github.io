@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Neo4j and Graph Databases"
+title: "Neo4j and Graph Databases Introduction"
 date: 2019-08-22
 ---
 
