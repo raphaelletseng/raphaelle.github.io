@@ -60,6 +60,8 @@ To delete relationships you must first identify which relationship you want to r
 
 To delete both a node and a relationship: MATCH (p:Person) WHERE p.name = "Liam Neeson" DETACH DELETE p
 
+![relationships between office workers](https://github.com/raphaelletseng/raphaelletseng.github.io/blob/master/assets/img/graph%20-%20Superiors.png)
+
 ### MERGE
 
 - **MERGE** will prevent the creation of a node with the same properties as a node that already exists (i.e duplicates)
