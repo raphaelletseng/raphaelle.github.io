@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Neo4j and Graph Databases"
+date: 2019-08-22
+---
+
 ## 1. What is a graph database?
 Graph Databases take business and user needs (i.e what you want your application to do) and transform them into a structure for sorting data. The performance of this graph database remains consistent even as data volume and connections between data points increases. It is flexible, as you can keep adding to the existing graph without endangering the current functionality. It allows us to label data in order to group it and establish trends, and ask questions about our information. 
 
