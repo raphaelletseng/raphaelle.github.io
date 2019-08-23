@@ -97,7 +97,7 @@ Nodes are represented by () or (n). To retrieve all the nodes in your graph use 
 
 **CALL db.propertyKeys** returns all the property keys in the database.
 
-You can reutrn **type(n)** where n is a relationship and you want to know its type. 
+You can return **type(n)** where n is a relationship and you want to know its type. 
 
 **WHERE** is also a key word to use in searches. 
 - Eg. MATCH (a)-[n]->(m) WHERE a:Person and type(n) = 'WROTE' AND m.movie RETURN a.name AS name, m.title as Movie
