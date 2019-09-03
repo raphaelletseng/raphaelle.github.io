@@ -58,12 +58,12 @@ Tag clouds are useful visualisations to get brief overviews of data. A useful me
 ### Area Graphs
 - Percentage of Black and Latino employees 
 ![Link](/assets/img/Black_Latino.PNG)
-This graph looks at the companies with the highest percentage of black employees and splits the area beneath the graph with percentage of Latino employees per company. From this, we can see that Amazon's employees are made up of 21% black and 13% latino. On average, companies tend to have a higher %Latino than %Black employees. This isn't surprising given that the US population is made up of 13% Black and 18% Latino employees. The exceptions to this trend are Groupon and Linkedin, which have equal percentages of Black and Latino employees and Amazon, the US congress, Uber and Diversity Inc. top 50, which have more Black employees than Latino. 
+This graph looks at the companies with the highest percentage of black employees and splits the area beneath the graph with percentage of Latino employees per company. From this, we can see that Amazon's employees are made up of 21% black and 13% latino. On average, companies tend to have a higher percentage of Latino than Black employees. This isn't surprising given that the US population is made up of 13% Black and 18% Latino. The exceptions to this trend are Groupon and Linkedin, which have equal percentages of Black and Latino employees and Amazon, the US congress, Uber and Diversity Inc. top 50, which have more Black employees than Latino, suggesting that Latinos are under-respresented in these companies. 
 
 ### Bar Charts
 - Gender
 ![Link](/assets/img/Gender2.PNG)
-This graph displays percentage of male employees on the Y axis against percentage of female employees on the X axis for all the companies in the dataset. Out of 38 data points, only 2 have a majority of women: Etsy and Yelp, despite the US population being split 51% women and 49% men. Indiegogo is the only company with an even split of 50% men and 50% women. Perhaps the most disheartening statistic of all is the fact that 94% of Fortune 500 CEOs are men. 
+This graph displays percentage of male employees on the Y axis against percentage of female employees on the X axis for all the companies in the dataset. Out of 38 data points, only 2 have a majority of women, Etsy and Yelp, despite the US population being split 51% women and 49% men. Indiegogo is the only company with an even split of 50% men and 50% women. Perhaps the most disheartening statistic of all is the fact that 94% of Fortune 500 CEOs are men. 
 
 - Kibana allows you to visualise data in several more manners including geomaps, heat maps, pie charts, etc. 
 
