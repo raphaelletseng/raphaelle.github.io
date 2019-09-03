@@ -41,22 +41,31 @@ cool project [here](https://github.com/raphaelletseng/know_your_company)!)
 I reformatted it slightly to make it easier to work with and you can download that [here](https://github.com/raphaelletseng/hello-world/blob/master/employeediversity5.csv).
 This dataset only contains 36 companies, which makes it a good starting point to play around with. It was also last updated in May 2018
 which means it isn't completely redundant and outdated. 
+For the purposes of this visualisation, I am grouping the US Congress, Fortune 500 CEOs and the US population as companies. 
 
 ## 3. Visualising outcomes: Examples
 This data can be simply be uploaded to Kibana using the Machine Learning > import data function of kibana.
 
-
-- Percentage of Women in companies visualised in a TagCloud:
+### TagClouds
+- Percentage of Women in companies:
 ![Link](/assets/img/Percentage%20Female%20Tag%20Cloud.PNG)
-This visualisation is useful to get a brief overview, but it lacks key information. A useful metric here is the tag 'US Population', which represents 51% women. From this, we can see that companies like Google, the US congress, Fortune 500 CEOs, Cisco and Microsoft all have incredibly male-dominated demographics. Yelp, on the otherhand, employs more women than men. However, a limitation of this dataset is that we cannot see the breakdown of departments; does Yelp hire an equal amount of female software engineers as male? Or do women dominate in fields such as HR? This is impossible to tell here.
+- Percentage of Asians in companies:
+![Link](/assets/img/AsianTagCloud.PNG)
+- Percentage of Latinos in companies:
+![Link](/assets/img/LatinoTagCloud.PNG)
+Tag clouds are useful visualisations to get brief overviews of data. A useful metric to get some idea of the scale in this data is 'US Population'. 'Average from our sample' may also be used to get an understanding of which companies higher particularly low numbers of certain groups and aren't particularly diverse. For example, 51% of the US population is made up of women. So companies like Google, the US Congress, Fortune 500 CEOs, Cisco and Microsoft all have incredibly male-dominated demographics. Yelp, on the otherhand, employs more women than men. TagClouds however, make it difficult to see specific information about certain groups and numbers. 
 
-- Percentage of Black and Latino employees in an Area Graph
+### Area Graphs
+- Percentage of Black and Latino employees 
 ![Link](/assets/img/Black_Latino.PNG)
 This graph looks at the companies with the highest percentage of black employees and splits the area beneath the graph with percentage of Latino employees per company. From this, we can see that Amazon's employees are made up of 21% black and 13% latino. On average, companies tend to have a higher %Latino than %Black employees. This isn't surprising given that the US population is made up of 13% Black and 18% Latino employees. The exceptions to this trend are Groupon and Linkedin, which have equal percentages of Black and Latino employees and Amazon, the US congress, Uber and Diversity Inc. top 50, which have more Black employees than Latino. 
 
-- Gender viewed across a bar chart
+### Bar Charts
+- Gender
 ![Link](/assets/img/Gender2.PNG)
 This graph displays percentage of male employees on the Y axis against percentage of female employees on the X axis for all the companies in the dataset. Out of 38 data points, only 2 have a majority of women: Etsy and Yelp, despite the US population being split 51% women and 49% men. Indiegogo is the only company with an even split of 50% men and 50% women. Perhaps the most disheartening statistic of all is the fact that 94% of Fortune 500 CEOs are men. 
+
+- Kibana allows you to visualise data in several more manners including geomaps, heat maps, pie charts, etc. 
 
 ## Conclusions
 I still have a lot to learn in Kibana but this was a cool way to start visualising some relevant information about diversity in tech companies, an area that I am particularly interested in given the impact it will have on my future. Although the results aren't super promising at the moment, it is by making data like this more accessible and visual that we can start making people more aware about the need for ethnic and gender diversity in the workspace. 
