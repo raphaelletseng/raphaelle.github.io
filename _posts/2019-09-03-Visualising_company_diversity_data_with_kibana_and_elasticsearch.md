@@ -53,7 +53,7 @@ This data can be simply be uploaded to Kibana using the Machine Learning > impor
 ![Link](/assets/img/AsianTagCloud.PNG)
 - Percentage of Latinos in companies:
 ![Link](/assets/img/LatinoTagCloud.PNG)
-Tag clouds are useful visualisations to get brief overviews of data. A useful metric to get some idea of the scale in this data is 'US Population'. 'Average from our sample' may also be used to get an understanding of which companies higher particularly low numbers of certain groups and aren't particularly diverse. For example, 51% of the US population is made up of women. So companies like Google, the US Congress, Fortune 500 CEOs, Cisco and Microsoft all have incredibly male-dominated demographics. Yelp, on the otherhand, employs more women than men. TagClouds however, make it difficult to see specific information about certain groups and numbers. 
+Tag clouds are useful visualisations to get brief overviews of data. A useful metric to get some idea of the scale in this data is 'US Population'. 'Average from our sample' may also be used to get an understanding of which companies hire particularly low numbers of certain groups and aren't particularly diverse. For example, 51% of the US population is made up of women. So companies like Google, the US Congress, Fortune 500 CEOs, Cisco and Microsoft all have incredibly male-dominated demographics. Yelp, on the otherhand, employs more women than men. TagClouds however, make it difficult to see specific information about certain groups and numbers. 
 
 ### Area Graphs
 - Percentage of Black and Latino employees 
