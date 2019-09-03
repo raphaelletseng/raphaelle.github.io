@@ -49,5 +49,8 @@ This data can be simply be uploaded to Kibana using the Machine Learning > impor
 ![Link](/assets/img/Percentage%20Female%20Tag%20Cloud.PNG)
 This visualisation is useful to get a brief overview, but it lacks key information. A useful metric here is the tag 'US Population', which represents 51% women. From this, we can see that companies like Google, the US congress, Fortune 500 CEOs, Cisco and Microsoft all have incredibly male-dominated demographics. Yelp, on the otherhand, employs more women than men. However, a limitation of this dataset is that we cannot see the breakdown of departments; does Yelp hire an equal amount of female software engineers as male? Or do women dominate in fields such as HR? This is impossible to tell here.
 
+![Link](/assets/img/Black_Latino.PNG)
+This graph looks at the companies with the highest percentage of black employees and splits the area beneath the graph with percentage of Latino employees per company. From this, we can see that Amazon's employees are made up of 21% black and 13% latino. On average, companies tend to have a higher %Latino than %Black employees. This isn't surprising given that the US population is made up of 13% Black and 18% Latino employees. The exceptions to this trend are Groupon and Linkedin, which have equal percentages of Black and Latino employees and Amazon, the US congress, Uber and Diversity Inc. top 50, which have more Black employees than Latino. 
+
 5. Conclusions that can be drawn
 6. Plug extension we made. 
