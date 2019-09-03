@@ -6,7 +6,7 @@ date: 2019-09-03
 
 
 Kibana is an open source analytics and visualisation platform that works with elasticsearch. 
-It's a great way of seeing the relationships that exist in your datasets. This is a short explanation of my first explorations with Kibana.
+It's a great way of seeing the relationships that exist in your data sets. This is a short explanation of my first explorations with Kibana.
 
 ## 1. How do you set up kibana and elasticsearch?
 Setting up kibana and elasticsearch requires downloading both from [elastic.co](https://www.elastic.co/products/elastic-stack).  
@@ -34,7 +34,7 @@ and ./bin/kibana.bat. To check both elasticsearch and kibana are running:
 - to access kibana, run: 127.0.0.1:5601 in the browser.
 
 ## 2. Source of data
-Since I'm still learning and wanted to play around a little with kibana, I decided to use a dataset I was already familiar with: 
+Since I'm still learning and wanted to play around a little with kibana, I decided to use a data set I was already familiar with: 
 [Diversity in Tech](https://informationisbeautiful.net/visualizations/diversity-in-tech/). This is the same set we used in March 2019's
 Boston TechTogether Hackathon to build a google chrome extension where you can visualise company diversity data. (You can download that
 cool project [here](https://github.com/raphaelletseng/know_your_company)!) 
@@ -58,12 +58,12 @@ Tag clouds are useful visualisations to get brief overviews of data. A useful me
 ### Area Graphs
 - Percentage of Black and Latino employees 
 ![Link](/assets/img/Black_Latino.PNG)
-This graph looks at the companies with the highest percentage of black employees and splits the area beneath the graph with percentage of Latino employees per company. From this, we can see that Amazon's employees are made up of 21% black and 13% latino. On average, companies tend to have a higher percentage of Latino than Black employees. This isn't surprising given that the US population is made up of 13% Black and 18% Latino. The exceptions to this trend are Groupon and Linkedin, which have equal percentages of Black and Latino employees and Amazon, the US congress, Uber and Diversity Inc. top 50, which have more Black employees than Latino, suggesting that Latinos are under-respresented in these companies. 
+This graph looks at the companies with the highest percentage of black employees and splits the area beneath the graph with percentage of Latino employees per company. From this, we can see that Amazon's employees are made up of 21% black and 13% Latino. On average, companies tend to have a higher percentage of Latino than Black employees. This isn't surprising given that the US population is made up of 13% Black and 18% Latino. The exceptions to this trend are Groupon and Linkedin, which have equal percentages of Black and Latino employees and Amazon, the US congress, Uber and Diversity Inc. top 50, which have more Black employees than Latino, suggesting that Latinos are under-represented in these companies. 
 
 ### Bar Charts
 - Gender
 ![Link](/assets/img/Gender2.PNG)
-This graph displays percentage of male employees on the Y axis against percentage of female employees on the X axis for all the companies in the dataset. Out of 38 data points, only 2 have a majority of women, Etsy and Yelp, despite the US population being split 51% women and 49% men. Indiegogo is the only company with an even split of 50% men and 50% women. Perhaps the most disheartening statistic of all is the fact that 94% of Fortune 500 CEOs are men. 
+This graph displays percentage of male employees on the Y axis against percentage of female employees on the X axis for all the companies in the data set. Out of 38 data points, only 2 have a majority of women, Etsy and Yelp, despite the US population being split 51% women and 49% men. Indiegogo is the only company with an even split of 50% men and 50% women. Perhaps the most disheartening statistic of all is the fact that 94% of Fortune 500 CEOs are men. 
 
 ### Heat Maps
 - Women in the workplace
