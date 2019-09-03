@@ -6,7 +6,7 @@ date: 2019-09-03
 
 
 Kibana is an open source analytics and visualisation platform that works with elasticsearch. 
-It's a great way of seeing the relationships that exist in your datasets.
+It's a great way of seeing the relationships that exist in your datasets. This is a short explanation of my first explorations with Kibana.
 
 ## 1. How do you set up kibana and elasticsearch?
 Setting up kibana and elasticsearch requires downloading both from [elastic.co](https://www.elastic.co/products/elastic-stack).  
