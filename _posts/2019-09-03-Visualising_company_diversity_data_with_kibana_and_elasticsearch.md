@@ -65,7 +65,12 @@ This graph looks at the companies with the highest percentage of black employees
 ![Link](/assets/img/Gender2.PNG)
 This graph displays percentage of male employees on the Y axis against percentage of female employees on the X axis for all the companies in the dataset. Out of 38 data points, only 2 have a majority of women, Etsy and Yelp, despite the US population being split 51% women and 49% men. Indiegogo is the only company with an even split of 50% men and 50% women. Perhaps the most disheartening statistic of all is the fact that 94% of Fortune 500 CEOs are men. 
 
-- Kibana allows you to visualise data in several more manners including geomaps, heat maps, pie charts, etc. 
+### Heat Maps
+- Women in the workplace
+![Link](/assets/img/WomenHeatMap.PNG)
+Another example of how to easily visualise the gap between men and women when it comes to diversity in the workplace. 
+
+- Kibana allows you to visualise data in several more manners including geomaps, pie charts, etc. 
 
 ## Conclusions
 I still have a lot to learn in Kibana but this was a cool way to start visualising some relevant information about diversity in tech companies, an area that I am particularly interested in given the impact it will have on my future. Although the results aren't super promising at the moment, it is by making data like this more accessible and visual that we can start making people more aware about the need for ethnic and gender diversity in the workspace. 
