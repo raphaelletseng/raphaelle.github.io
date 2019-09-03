@@ -45,8 +45,9 @@ which means it isn't completely outdated and still somewhat relevant.
 ## 3. Visualising outcomes
 This data can be simply be uploaded to Kibana using the Machine Learning > import data function of kibana.
 
-![Link](https://github.com/raphaelletseng/hello-world/blob/master/Percentage%20Female%20Tag%20Cloud.PNG)
-
+-Percentage of Women in companies visualised in a TagCloud:
+![Link](/assets/img/Percentage%20Female%20Tag%20Cloud.PNG)
+This visualisation is useful to get a brief overview, but it lacks key information. A useful metric here is the tag 'US Population', which represents 51% women. From this, we can see that companies like Google, the US congress, Fortune 500 CEOs, Cisco and Microsoft all have incredibly male-dominated demographics. Yelp, on the otherhand, employs more women than men. However, a limitation of this dataset is that we cannot see the breakdown of departments; does Yelp hire an equal amount of female software engineers as male? Or do women dominate in fields such as HR? This is impossible to tell here.
 
 5. Conclusions that can be drawn
 6. Plug extension we made. 
