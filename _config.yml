@@ -9,7 +9,7 @@ linkedin_username: raphaëlletseng
 
 markdown: kramdown
 mathjax: true
-theme: minima
+theme: hydrogen
 plugins:
   - jekyll-feed
 
