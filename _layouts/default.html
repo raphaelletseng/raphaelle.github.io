@@ -7,18 +7,26 @@ config=TeX-AMS-MML_HTMLorMML"></script>
 
   {% include head.html %}
 
-  <body>
+<p>
+  By <a href="https://github.com/{{ page.author }}" title="{{ page.author }} on GitHub">{{ page.author }}</a>
+</p>
 
-    {% include header.html %}
+<figure>
+  <img class="theme-thumbnail" src="{{ site.baseurl }}/assets/img/themes/screenshots/{{page.title}}.jpg" alt="" />
+</figure>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+{{ page.description | markdownify }}
 
-    {% include footer.html %}
+{% include theme-{{page.type}}-installation.html %}
 
-  </body>
+{% if site.data.github_pages.themes contains page.title %}
+  <div class="note info">
+    <strong>Supported on GitHub Pages</strong>
+  </div>
+{% endif %}
+
+<p>
+  <a href="{{ page.repository }}" title="{{ page.title }} on GitHub">Source code</a>
+</p>
 
 </html>
