@@ -13,9 +13,9 @@ for any kind of big project up until now.
 3. Figuring out how to output everything as a word document containing images that depended on the raw
 input data. 
 
-Essentially, the task was this. How do I take this raw data that represents x, y, z, execute certain
-transformations on the the numbers to get adjusted values, turn the results into a series of graphs, 
-and then output these graphs as a word document along with a set of images that varied depending on 
+Essentially, the task was this: How do I take this raw data that represents x, y, z, execute certain
+transformations on the numbers to get adjusted values, turn the results into a series of graphs, 
+and then output these graphs as a word document along with a set of images that vary depending on 
 all the results? 
 It seemed simple enough and doable on python. But I ended up learning a bunch of new things I thought
 I would throw into a little post for future reference. 
@@ -30,7 +30,7 @@ data = pd.read_csv ('Raw data.csv')
 dataset = data.values
 ```
 I mostly used while loops to iterate through everything and apply the right changes. Once I had the final
-numbers, I threw them into a new array and rounded them up into integers.
+numbers, I threw them into a new array and rounded them up to integers.
 
 ## Graphs
 
@@ -73,7 +73,7 @@ ax.plot(angles, values, linewidth=1, linestyle='dotted')
 ax.fill(angles, values, 'b', alpha=0.3)
 ```
 
-The bar charts were made using matplotlibs references:
+The bar charts were made using matplotlib's references:
 ```
 import numpy as np
 np.random.seed(1234)
@@ -95,7 +95,7 @@ for i, v in enumerate(result):
 plt.savefig('EI.png',  bbox_inches='tight')
 ```
 I wanted to save the graphs to be able to use them in my word doc later. I found that if I didn't
-add 'bbox_inches='tight', my saved png would be cropped and I would lose some information
+add 'bbox_inches='tight', my saved png would be cropped and I would lose some information.
 
 ![Bar chart](/assets/img/Bar Chart eg.png)
 
