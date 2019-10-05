@@ -107,6 +107,7 @@ I wanted to save the graphs to be able to use them in my word doc later. I found
 ![Bar chart](/assets/img/Bar Chart eg.PNG)
 
 ## Python-docx
+Python-docx is a Python libaray for creating and updating Microsoft Word (.docx) files.
 
 Firstly, I had to install python-docx and set up what I'd need:
 ```
@@ -116,28 +117,43 @@ from docx.shared import Inches
 from docx.shared import Pt
 ```
 Python-docx essentially writes information to a word document as indicated.
+This line opens a new document without specifying a file to open, creating a new document
+from the built-in default template. This is just a Word file with no content, stored
+with the installed python-docx package. I've linked the python-docx documentation [here] (https://python-docx.readthedocs.io/en/latest/index.html). 
 ```
 document= Document()
 document.add_heading("My results!")
 ```
-I didn't like the default font so I decided to change it to Arial:
+If you wanted to open an existing document you would just specify the path of that document in the brackets as follows:
 ```
-font = document. styles['Normal'].font
+document = Document("existing-file.docx")
+```
+I didn't like the default font so I decided to change it to Arial. 
+Styles defined in the document can be accessed using the Document.styles property.
+```
+font = document.styles['Normal'].font
 font.name = 'Arial'
 font.size =Pt(10)
 ```
-And then I just started writing my saved graphs to the document:
+And then I just started writing my saved graphs to the document.
+document.save("MA.docx") saves the document to a file named 'result.docx'.
+
+add_run appends a run to a paragraph containing text. 
+style is the object representing the style assigned to this paragraph, in this case 
+the style we defined earlier, 'Normal'.
+r1 stands for run objects - r1.add_picture(image_path, width, height) returns an in line shape instance. 
+
 ```
 p = document.add_paragraph("EI \n")
 p.style = document.styles['Normal']
 r1 = p.add_run()
 r1.add_picture('EI.png', width = Inches(4))
 
-document.save("MA.docx") # At the end of your code to generate the docx file
+document.save("result.docx") # At the end of your code to generate the docx file
 ```
 The next set of images I wanted to add were dependent on the final results. Depending on whether my numbers fell
 between 0 - 30, 31 - 60 and 61 - 100, a different set of images would have to be generated.
-For this, I just used a simple if elif statement to determine which of the images to load using
+For this, I just used a simple if elif statement to determine which of the images to load using:
 ```
 r1.add_picutre('IMAGE.PNG', width = Inches (6))
 ```
