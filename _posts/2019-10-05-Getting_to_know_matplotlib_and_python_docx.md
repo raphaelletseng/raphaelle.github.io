@@ -97,7 +97,7 @@ plt.savefig('EI.png',  bbox_inches='tight')
 I wanted to save the graphs to be able to use them in my word doc later. I found that if I didn't
 add 'bbox_inches='tight', my saved png would be cropped and I would lose some information.
 
-![Bar chart](/assets/img/Bar Chart eg.png)
+![Bar chart](/assets/img/Bar Chart eg.PNG)
 
 ## Python-docx
 
