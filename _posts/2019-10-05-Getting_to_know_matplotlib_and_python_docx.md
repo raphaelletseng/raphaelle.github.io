@@ -107,7 +107,7 @@ I wanted to save the graphs to be able to use them in my word doc later. I found
 ![Bar chart](/assets/img/Bar Chart eg.PNG)
 
 ## Python-docx
-Python-docx is a Python libaray for creating and updating Microsoft Word (.docx) files.
+Python-docx is a Python library for creating and updating Microsoft Word (.docx) files.
 
 Firstly, I had to install python-docx and set up what I'd need:
 ```
