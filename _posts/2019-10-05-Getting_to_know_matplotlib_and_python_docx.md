@@ -119,7 +119,7 @@ from docx.shared import Pt
 Python-docx essentially writes information to a word document as indicated.
 This line opens a new document without specifying a file to open, creating a new document
 from the built-in default template. This is just a Word file with no content, stored
-with the installed python-docx package. I've linked the python-docx documentation [here] (https://python-docx.readthedocs.io/en/latest/index.html). 
+with the installed python-docx package. I've linked the python-docx documentation [here](https://python-docx.readthedocs.io/en/latest/index.html).
 ```
 document= Document()
 document.add_heading("My results!")
