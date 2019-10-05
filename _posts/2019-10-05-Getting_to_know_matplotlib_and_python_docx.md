@@ -75,10 +75,11 @@ ax.plot(angles, values, linewidth=1, linestyle='dotted')
 ax.fill(angles, values, 'b', alpha=0.3)
 ```
 The dataframe defines the categories for the plot with the relevant results. 
-plt.yticks sets the continuous axis values labels and plt.ylim (0,100) sets the range.
+plt.yticks sets the continuous axis labels and plt.ylim (0,100) sets the range.
 ax.plot and ax.fill are used to customise the aesthetic of the plot. 
 
 - The bar charts were made using matplotlib's references:
+
 ```
 import numpy as np
 np.random.seed(1234)
