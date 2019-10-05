@@ -4,9 +4,9 @@ title: "Getting to know MatPlotLib and Python-docx"
 date: 2019-10-05
 ---
 
-Recently, my boss asked me if I'd be able to automate and expediate the analysis of a set of data
+Recently, my boss asked me if I'd be able to automate and expedite the analysis of a set of data
 so that my colleagues would be able to avoid manually copying and pasting numbers into 
-columns on excel. For me this proposed a few new challeneges I had not yet encountered:
+columns on excel. For me this proposed a few new challenges I had not yet encountered:
 1. Writing a working piece of code in python, a language I'd used sparingly and never 
 for any kind of big project up until now.
 2. Figuring out how to generate graphs using matplotlib
@@ -38,7 +38,7 @@ numbers, I threw them into a new array and rounded them up to integers.
 from matplotlib import pyplot as plt
 from math import pi
 ```
-I wanted 2 plots, a radar chart and horizonal bar charts. 
+I wanted 2 plots, a radar chart and horizontal bar charts. 
 The radar was created using [this link](https://python-graph-gallery.com/390-basic-radar-chart/):
 ```
 df = pd.DataFrame({
@@ -134,7 +134,7 @@ For this, I just used a simple if elif statement to determine which of the image
 ```
 r1.add_picutre('IMAGE.PNG', width = Inches (6))
 ```
-And once I'd done that I had a word document filled with information about the raw data that I'd inputed.
+And once I'd done that I had a word document filled with information about the raw data that I'd inputted.
 It was pretty cool to see that my code was able to take a raw set of numbers and spit out 
 useful information and graphs. I learnt how to output word documents, a skill I think will come in 
 pretty handy in the future, and began to learn the basics of matplotlib, which is always useful. 
