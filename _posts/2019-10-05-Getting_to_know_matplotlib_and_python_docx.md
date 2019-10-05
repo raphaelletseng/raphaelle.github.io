@@ -34,6 +34,8 @@ numbers, I threw them into a new array and rounded them up to integers.
 
 ## Graphs
 
+Matplotlib is a Python 2D plotting library used to make graphs and figures.
+You can generate plots, histograms, bar charts, scatterplots etc. 
 ```
 from matplotlib import pyplot as plt
 from math import pi
@@ -72,8 +74,11 @@ plt.ylim(0,100)
 ax.plot(angles, values, linewidth=1, linestyle='dotted')
 ax.fill(angles, values, 'b', alpha=0.3)
 ```
+The dataframe defines the categories for the plot with the relevant results. 
+plt.yticks sets the continuous axis values labels and plt.ylim (0,100) sets the range.
+ax.plot and ax.fill are used to customise the aesthetic of the plot. 
 
-The bar charts were made using matplotlib's references:
+- The bar charts were made using matplotlib's references:
 ```
 import numpy as np
 np.random.seed(1234)
@@ -88,14 +93,15 @@ ax.barh(y_pos, result, color = 'indianred', height = 0.5)
 ax.set_yticks(y_pos)
 ax.set_yticklabels(titles)
 
-# this line adds labels to the ends of the graph
 for i, v in enumerate(result):
     ax.text(v + 1, i, str(v) + str('%'), color = 'black', fontweight = 'bold')
 
 plt.savefig('EI.png',  bbox_inches='tight')
 ```
-I wanted to save the graphs to be able to use them in my word doc later. I found that if I didn't
-add 'bbox_inches='tight', my saved png would be cropped and I would lose some information.
+NumPy is the numerical mathematics extension of matplotlib.
+ax.barh() is the line that edits the colour, look and overall aesthetic of the bars.
+The forloop serves to add labels to the end of the bars that indicate their values. 
+I wanted to save the graphs to be able to use them in my word doc later. I found that if I didn't add 'bbox_inches='tight', my saved png would be cropped and I would lose some information.
 
 ![Bar chart](/assets/img/Bar Chart eg.PNG)
 
