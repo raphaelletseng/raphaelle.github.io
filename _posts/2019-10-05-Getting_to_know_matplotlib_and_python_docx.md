@@ -84,27 +84,53 @@ ax.plot and ax.fill are used to customise the aesthetic of the plot.
 import numpy as np
 np.random.seed(1234)
 plt.rcdefaults()
-fig, ax = plt.subplots()
+fig, ax = plt.subplots()#figsize = (2,5)
+fig.set_size_inches(9,2, forward=True)
 
-titles = ('Comp', 'Pos', 'EmC')
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['bottom'].set_visible(False)
+ax.spines['left'].set_color('grey')
+ax.spines['left'].set_alpha(0.3)
+ax.spines['left'].set_lw(1.5)
+
+fontprop = {'family':'arial'}
+
+x = np.array([0,30,60,90])
+my_xticks = ['0', '30%', '60%', '90%']
+plt.xticks(x, my_xticks, color ='grey', fontsize = 9)
+
+plt.axvline(x=30, color = 'grey',  alpha = 0.3)
+plt.axvline(x=60, color = 'grey',  alpha = 0.3)
+plt.axvline(x=90, color = 'grey',  alpha = 0.3)
+
+titles = ('Creative Imagination', 'Intellectual Curiosity', 'Adventurousness')
 y_pos = np.arange(len(titles))
-result = (finals[0], finals[1], finals[2])
+result = (finals[15], finals[16], finals[17])
 
-ax.barh(y_pos, result, color = 'indianred', height = 0.5)
+ax.barh(y_pos, result, color = 'lightgreen', height = 0.4)
 ax.set_yticks(y_pos)
-ax.set_yticklabels(titles)
+ax.set_yticklabels(titles, color = 'grey', fontsize = 12, family = {'arial'})
+
+#a = gca()
+#a.set_yticklabels(a.get_yticks(), fontprop)
+
+for line in ax.yaxis.get_ticklines(): 
+    line.set_markersize(0)
+for line in ax.xaxis.get_ticklines():
+    line.set_markersize(0)
 
 for i, v in enumerate(result):
-    ax.text(v + 1, i, str(v) + str('%'), color = 'black', fontweight = 'bold')
-
-plt.savefig('EI.png',  bbox_inches='tight')
+    ax.text(v + 3, i - 0.1, str(v) + str('%'), color = 'grey', fontsize = 13)
+    
+plt.savefig('Open.png', bbox_inches = 'tight')
 ```
 NumPy is the numerical mathematics extension of matplotlib.
 ax.barh() is the line that edits the colour, look and overall aesthetic of the bars.
 The forloop serves to add labels to the end of the bars that indicate their values. 
 I wanted to save the graphs to be able to use them in my word doc later. I found that if I didn't add 'bbox_inches='tight', my saved png would be cropped and I would lose some information.
 
-![Bar chart](/assets/img/Bar Chart eg.PNG)
+![Bar chart](/assets/img/barcharteg.PNG)
 
 ## Python-docx
 Python-docx is a Python library for creating and updating Microsoft Word (.docx) files.
