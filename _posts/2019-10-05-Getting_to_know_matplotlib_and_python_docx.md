@@ -40,7 +40,7 @@ You can generate plots, histograms, bar charts, scatterplots etc.
 from matplotlib import pyplot as plt
 from math import pi
 ```
-I wanted 2 plots, a radar chart and horizontal bar charts. 
+I wanted 3 plots, a radar chart, horizontal bar charts and a polar bar chart. 
 The radar was created using [this link](https://python-graph-gallery.com/390-basic-radar-chart/):
 ```
 df = pd.DataFrame({
@@ -131,6 +131,37 @@ The forloop serves to add labels to the end of the bars that indicate their valu
 I wanted to save the graphs to be able to use them in my word doc later. I found that if I didn't add 'bbox_inches='tight', my saved png would be cropped and I would lose some information.
 
 ![Bar chart](/assets/img/barcharteg.PNG)
+
+My polar bar chart was done using Matplotlib's documentation:
+```
+import numpy as np
+import matplotlib.pyplot as plt
+np.random.seed(19680801)
+N = 18
+theta = np.linspace(0.0, 2*np.pi, N, endpoint=False)
+radii = 100 
+width = 2*np.pi/(N+0.7)
+colors = ["palevioletred","palevioletred","palevioletred", "mediumorchid","mediumorchid","mediumorchid", "rebeccapurple",
+          "rebeccapurple", "rebeccapurple", "slateblue", "slateblue", "slateblue", "lightblue", "lightblue", "lightblue",
+         "lightgreen", "lightgreen", "lightgreen"]
+#plt.cm.hsv(theta/2/np.pi)
+y_ticks = [0,10,20,30,40,50,60,70,80,90,100]
+ax = plt.subplot(111, projection='polar')
+ax.bar(theta, finals, width=width, bottom=0.0, color=colors, alpha=0.8, align = 'edge')
+ax.set_yticks(y_ticks)
+ax.set_yticklabels(["0%",'10%','20%', '30%', '40%',
+                   '50%', '60%', '70%', '80%', '90%', '100%'], color = 'grey', fontsize = 6)
+ax.set_xticklabels([])
+ax.set_theta_zero_location('N')
+ax.set_theta_offset(pi/2)
+ax.set_theta_direction(-1)
+ax.spines['polar'].set_color("grey")
+ax.spines['polar'].set_alpha(0.3)
+ax.set_axisbelow(True)
+plt.savefig('PolarPlot.png')
+```
+![Polar Plot](/assets/img/polarplot.png)
+
 
 ## Python-docx
 Python-docx is a Python library for creating and updating Microsoft Word (.docx) files.
