@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ginsberg's Howl: A successful challenge of the status quo?"
-date: 2019-08-22
+date: 2020-05-27
 ---
 
 ### "Society does not consist of individuals but expresses the sum of interrelations, the relations within which these individuals stand." - Karl Marx.
