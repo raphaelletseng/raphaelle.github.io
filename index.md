@@ -9,7 +9,7 @@ layout: default
 </div>
 
 <div id="image-container" class="noselect">
-  <img id="primary-mainimg" class="main-image" src="assets/img/119916132_1272694136408821_5749101384131024825_n.jpg"></img>
+  <img id="primary-mainimg" class="main-image" src="assets/img/119916132_1272694136408821_5749101384131024825_n.jpg"> </img>
 </div>
 
 <link rel="stylesheet" href="assets/css/index.css">
