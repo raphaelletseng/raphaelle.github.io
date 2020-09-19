@@ -7,8 +7,8 @@
 }
 .main-image {
    z-index: -999;
-   height: 50%;
-   width: auto;
+   height: auto;
+   width: 100%;
    postion: center;
    -webkit-transition: opacity 2s ease-in-out;
    -moz-transition: opacity 2s ease-in-out;
