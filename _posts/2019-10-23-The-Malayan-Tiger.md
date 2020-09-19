@@ -12,7 +12,7 @@ The Malayan tiger has been listed as critically endangered by the [IUCN Red List
 
 Why is the Malayan tiger on the brink of extinction? And what must be done if we hope to save it?
 
->Img
+![Malayan tiger swimming](/assets/img/malayan-tiger-1.png)
 
 ## Why is the Malayan Tiger so important?
 
@@ -38,7 +38,7 @@ In May of 2019, two Vietnamese poachers were fined RM 1.56 mil, the largest sum 
 
 Snares are steel cable nooses, valued by poachers for their simplicity. They are set up along tiger paths and left unattended for unsuspecting animals to walk into. These animals are then left to a slow and painful death, as the harder you pull the tighter the noose becomes. They are doomed to be collected by local or foreign poachers at a later date. Snares aren’t choosy; they trap any and all animals from deer to tigers. They have also resulted in amputated paws, and three-legged sun bears, tapirs, tigers, and more, handicapped in the jungle. A tiger without its claws cannot hunt, leaving it to die again, a slow and painful death.
 
->Snare
+![Illegal snares](/assets/img/snares.jpg)
 
 But why are people still willing to venture so deep into the jungle despite the risks and illegality involved? Tiger parts are some of the most coveted animal parts in the world. Every part is in high demand. Their meat is consumed as a delicacy, their skin, skull, claws and teeth are traded as trophies, and their bones, blood and sexual organs are desired for their mythical medicinal qualities. In fact, in Chinese medicine, practically every part of the tiger has some sort of medicinal value, and with the rising affluence of China, the demand for everything from tiger fat to tiger penises has risen too.
 
@@ -62,7 +62,7 @@ If you have the means, you may be interested in donating to one of the NGOs list
 
 Even if we make a great, concerted effort, reversing the current trend of tiger decline in Malaysia is a battle that will require tremendous luck and persistence. If nothing is done, we can expect the extinction of the Malayan tiger in the wild by 2022 and within a couple of generations, we will have lost 4 tiger subspecies. The food webs of Malaysian jungles will collapse, forests will suffer, and even more animals will be fated to perish. And for our children? The only place they will still be able to see the Malayan tiger — symbol of courage, strength and freedom — will be behind bars.
 
-> Harimau
+![The Malayan Tiger](/assets/img/malayan-tiger-2.jpg)
 
 ---
 This article was written after several months where I volunteered for Rimau, shadowed meetings with Malaysian nature documentary film makers, and took part in 
