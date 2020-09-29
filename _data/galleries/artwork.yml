@@ -1,0 +1,13 @@
+picture_path: identity
+preview:
+  filename: identity_phase_2
+  original: identity_phase_2.jpg
+pictures:
+- filename: identity_phase_1
+  original: identity_phase_1.jpg
+  title: Identity-Phase-1
+  caption: 2015 project
+- filename: identity_phase_2
+  original: identity_phase_2.jpg
+  title: Identity-phase-2
+  caption: project work
