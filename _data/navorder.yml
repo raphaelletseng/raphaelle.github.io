@@ -1,0 +1,11 @@
+docs_list_title: nav nav_order
+docs:
+
+- title: posts
+  url: Posts.html
+
+- title: artwork
+  url: art.md
+
+- title: about me
+  url: about.md

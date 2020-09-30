@@ -5,9 +5,17 @@ preview:
 pictures:
 - filename: identity_phase_1
   original: identity_phase_1.jpg
-  title: Identity-Phase-1
+  title: Identity Phase 1
   caption: 2015 project
 - filename: identity_phase_2
   original: identity_phase_2.jpg
-  title: Identity-phase-2
+  title: Identity Phase 2
   caption: project work
+- filename: identity_danny_O'Connor
+  original: identity_danny_O'Connor.PNG
+  title: Study of Collision Course
+  caption: Study of Danny O'Connor's Collision Course
+- filename: portrait_study_Fabiola_Govare
+  original: portrait_study_Fabiola_Govare.PNG
+  title: Study of Diamond
+  caption: Study of Fabiola Govare's Diamond

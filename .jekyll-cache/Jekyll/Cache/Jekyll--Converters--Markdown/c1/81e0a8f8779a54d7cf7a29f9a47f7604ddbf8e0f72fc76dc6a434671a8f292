@@ -1,8 +1,4 @@
----
-layout: default
----
-
-<div id = "main-text">
+I"…<div id="main-text">
 
 <header class="post-header">
   <h1 class="post-title">Hi! I'm Raph Tseng.</h1>
@@ -14,7 +10,9 @@ layout: default
 </div>
 
 <div id="image-container" class="noselect">
-  <img id="primary-mainimg" class="main-image" src="assets/img/119916132_1272694136408821_5749101384131024825_n.jpg">
+  <img id="primary-mainimg" class="main-image" src="assets/img/119916132_1272694136408821_5749101384131024825_n.jpg" />
 </div>
 
-<link rel="stylesheet" href="../assets/css/index.css">
+<link rel="stylesheet" href="../assets/css/index.css" />
+
+:ET

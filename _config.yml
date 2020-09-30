@@ -1,7 +1,7 @@
-title: Raphaëlle Tseng
+title: raphaëlle tseng
 description: A place to write about what I'm learning and the projects I'm interested in!
 
-email: raphaelletseng@gmail.com
+email: raphaelle.tseng@mail.mcgill.ca
 baseurl: ""
 url: "raphaelletseng.github.io"
 github_username: raphaelletseng
@@ -18,6 +18,3 @@ include:
 
 future: true
 timezone: "Asia/Kuala_Lumpur"
-
-
- 
