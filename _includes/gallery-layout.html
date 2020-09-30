@@ -3,7 +3,7 @@
   <div id="gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="gallery-sizer"></div>
   {% for picture in include.gallery.pictures %}
     <div class="image-wrapper">
-      <a href="/assets/artwork/{{ include.gallery.picture_path }}/{{ picture.original }}/"
+      <a href="/assets/artwork/{{ include.gallery.picture_path }}/{{ picture.original }}"
       class="image"
       {% if picture.title %} data-sub-html="<div class='lg-toolbar caption'><h4>{{ picture.title | escape }}</h4>{% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}</div>"{% endif %}>
       <img alt="{{ picture.title }}" src="/assets/artwork/{{ include.gallery.picture_path }}/{{ picture.original }}" />

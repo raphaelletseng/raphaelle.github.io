@@ -1,0 +1,43 @@
+I"I<p>I also like art and drawing! Take a look at some of my work below.</p>
+
+<div id="image-gallery" class="image-gallery">
+  <div id="gallery-sizer" class="gallery-sizer"></div>
+  
+    <div class="image-wrapper">
+      <a href="/assets/artwork/identity/identity_phase_1.jpg" class="image" data-sub-html="&lt;div class='lg-toolbar caption'&gt;&lt;h4&gt;Identity-Phase-1&lt;/h4&gt;&lt;p&gt;2015 project&lt;/p&gt;&lt;/div&gt;">
+      <img alt="Identity-Phase-1" src="/assets/artwork/identity/identity_phase_1.jpg" />
+      </a>
+    </div>
+  
+    <div class="image-wrapper">
+      <a href="/assets/artwork/identity/identity_phase_2.jpg" class="image" data-sub-html="&lt;div class='lg-toolbar caption'&gt;&lt;h4&gt;Identity-phase-2&lt;/h4&gt;&lt;p&gt;project work&lt;/p&gt;&lt;/div&gt;">
+      <img alt="Identity-phase-2" src="/assets/artwork/identity/identity_phase_2.jpg" />
+      </a>
+    </div>
+  
+</div>
+
+<script>
+$(document).ready(function() {
+  var $gallery = $("#image-gallery").lightGallery({
+    thumbnail: false,
+    selector: '.image'
+  });
+});
+
+// init isotope
+var $grid = $('#image-gallery').isotope({
+  percentPosition: true,
+  //columnWidth: '#gallery-sizer',
+  itemSelector: '.image-wrapper',
+  layoutMode: "masonry"
+});
+
+// layout Isotope after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});
+
+</script>
+
+:ET
