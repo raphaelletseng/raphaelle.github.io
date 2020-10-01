@@ -5,11 +5,11 @@ layout: default
 <div id = "main-text">
 
 <header class="post-header">
-  <h1 class="post-title">Hi! I'm Raph Tseng.</h1>
+  <h1 class="post-title">Hi! I'm Raph.</h1>
 </header>
 
-  <h3>
-    I'm motivated by affecting positive social and environmental change in the world. </h3>
+  <h2>
+    I'm motivated by affecting positive social and environmental change in the world. </h2>
   <p> This is where I write about things that I am learning in my field of computer science, my interests in literature and the arts, and my pursuits working with NGOs and environmentalists. </p>
 </div>
 
