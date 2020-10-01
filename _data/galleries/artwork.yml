@@ -2,6 +2,7 @@ picture_path: identity
 preview:
   filename: identity_phase_2
   original: identity_phase_2.jpg
+
 pictures:
 - filename: identity_phase_1
   original: identity_phase_1.jpg
@@ -23,7 +24,27 @@ pictures:
   original: identity_study.jpg
   title: Pencil study - Identity
   caption: Pencil study
+- filename: identity_study_1.5
+  original: identity_study_1.5.jpg
+  title: Pencil study - Identity
+  caption: Pencil study
+- filename: identity_study_2
+  original: identity_study_2.jpg
+  title: Pencil study 2 - Identity
+  caption: Pencil study
 - filename: portrait_study_sundsbo
   original: portrait_study_sundsbo.jpg
   title: Pencil study - Solve Sundsbo
   caption: Pencil study of Solve Sundsbo's photgraphy
+- filename: ballet_study_2
+  original: ballet_study_2.jpg
+  title: Ballet Pointe Shoe
+  caption: Pencil study
+- filename: ballet_study_1
+  original: ballet_study_1.jpg
+  title: Tulle Fabric in Motion
+  caption: Pencil study
+- filename: ballet_study_3
+  original: ballet_study_3.jpg
+  title: Pirouette
+  caption: Pencil study
