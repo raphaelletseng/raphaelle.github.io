@@ -162,7 +162,7 @@ Running the models, once you have your data sorted, is probably the most straigh
 part. You can change the model parameters and there are other ways to optimise these
 parameters, but for now I'm just going to use the default settings.
 
-###Logistic Regression
+### Logistic Regression
 ```
 from sklearn.linear_model import LogisticRegression
 clf1 = LogisticRegression(random_state = 0, solver = 'lbfgs').fit(X_train, y_train)
