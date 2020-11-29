@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Non-Projective Dependency Parsing using Spanning Tree Algorithms: A Short Summary
+title: "Non-Projective Dependency Parsing using Spanning Tree Algorithms: A Short Summary"
 date: 2020-11-29
 ---
 
