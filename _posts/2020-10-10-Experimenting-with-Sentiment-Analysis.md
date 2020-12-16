@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Experimenting with Sentiment Analysis
+title: Experimenting with Sentiment Analysis on Movie Review Data
 date: 2020-10-10
 ---
 
