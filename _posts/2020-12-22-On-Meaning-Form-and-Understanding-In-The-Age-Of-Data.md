@@ -1,5 +1,5 @@
 ---
-layout: _post
+layout: post
 title: "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data"
 date: 2020-12-22
 ---
