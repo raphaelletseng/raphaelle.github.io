@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: _post
 title: "SenseBERT: Driving Some Sense Into BERT"
 date: 2020-12-16
 ---
