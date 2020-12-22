@@ -1,8 +1,8 @@
 docs_list_title: nav nav_order
 docs:
 
-- title: posts
-  url: Posts.html
+- title: blog
+  url: blog.html
 
 - title: artwork
   url: art.md
