@@ -1,0 +1,8 @@
+nav_items_title: ACME Documentation
+navigation:
+  - title: about me
+    url: /about/
+  - title: artwork
+    url: /art/
+  - title: blog
+    url: /blog/

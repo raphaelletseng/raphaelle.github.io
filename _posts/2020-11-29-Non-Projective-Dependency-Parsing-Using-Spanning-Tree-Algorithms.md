@@ -2,6 +2,7 @@
 layout: post
 title: "Non-Projective Dependency Parsing using Spanning Tree Algorithms"
 date: 2020-11-29
+tags: NLP
 ---
 
 This is a short summary of ['Non-projective dependency parsing using spanning tree algorithms' by McDonald et al., 2005.](https://www.aclweb.org/anthology/H05-1066.pdf)

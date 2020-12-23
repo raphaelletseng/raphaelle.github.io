@@ -231,6 +231,17 @@
  .post-meta {
    font-size: $small-font-size;
    color: $brand-color;
+   > a {
+     background-color: #65C7BC;
+     color: #FFF;
+     padding: 0 .5rem .1rem .5rem;
+     border-radius: 5px;
+     font-weight: bold;
+   }
+   > a:hover{
+     text-decoration: none;
+     font-weight:normal;
+   }
 
  }
 
@@ -316,6 +327,18 @@
    }
  }
 
+/** tags */
+ .tags {
+   padding: 0.5em;
+   border-style: 1px solid #65C7BC;
+   border-radius: 2px;
+   p { color: #FFF;
+   }
+   a {
+     color: #FFFFFF;
+     font-size: $small-font-size;
+   }
+ }
 
 
  /**

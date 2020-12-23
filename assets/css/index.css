@@ -34,3 +34,16 @@
   margin-right: auto;
   width: 90%;
 }
+.post-tag-mark{
+  font-size: 90%;
+  padding: 0 .5rem .1rem .5rem;
+  border-radius: 5px:
+  overflow: auto;
+  background-color: #65C7BC !important;
+  color: #FFFFFF;
+}
+.post-tag-mark:hover{
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+}

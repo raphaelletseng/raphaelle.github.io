@@ -2,6 +2,7 @@
 layout: post
 title: "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data"
 date: 2020-12-22
+tags: NLP language-models ML
 ---
 
 This is a short summary of [Bender and Koller's 'Climbing Towards NLU: On Meaning, Form, and
@@ -54,4 +55,4 @@ maintain healthy optimism in the field. Calls are made to spur a top-down perspe
 language, especially when talking about the successes of current models, and to encourage humility in dealing with natural
 language. I inherently agree with the thesis and the conclusions of this paper – the methods to mitigate error could be generalised
 to other fields where a lot of hype has recently been generated too. The use of examples via thought experiments and the answers
-to the counterarguments make for a solid argument, advocating for chartering a more attentive and vigilant course in the field. 
+to the counterarguments make for a solid argument, advocating for chartering a more attentive and vigilant course in the field.

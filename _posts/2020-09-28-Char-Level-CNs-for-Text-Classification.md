@@ -2,6 +2,7 @@
 layout: post
 title: "Character-Level Convolutional Networks for Text Classification"
 date: 2020-09-28
+tags: NLP language-models ML
 ---
 
 This is a short summary of [Character-level Convolutional Networks for Text
@@ -47,4 +48,4 @@ the datasets is not very surprising as they are all dependant on a variety of di
 better in different settings and tasks. This could suggest that there is a different factor intrinsic to every model that
 determines its performance. The table appears justified as it presents data found. However, it could be better
 presented, as the lack of error values make it difficult to compare the behaviours of all the models. Perhaps, instead,
-there could be two tables, with two different measures for the models, or variance could be included. 
+there could be two tables, with two different measures for the models, or variance could be included.

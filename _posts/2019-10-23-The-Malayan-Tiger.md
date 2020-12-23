@@ -2,6 +2,7 @@
 layout: post
 title: "The Malayan Tiger: On the Edge of Extinction"
 date: 2019-10-23
+tags: conservation wildlife NGOs jungle
 ---
 ### In the 1950's, more than **3000** tigers lived and ranged across the jungles of Peninsula Malaysia. As of 2019, less than **150** can be found in the wild.
 
@@ -65,9 +66,9 @@ Even if we make a great, concerted effort, reversing the current trend of tiger 
 ![The Malayan Tiger](/assets/img/malayan-tiger-2.jpg)
 
 ---
-This article was written after several months where I volunteered for Rimau, shadowed meetings with Malaysian nature documentary film makers, and took part in 
+This article was written after several months where I volunteered for Rimau, shadowed meetings with Malaysian nature documentary film makers, and took part in
 discussions with researchers from Rimba. I would like to acknowledge their hard work and dedication to the cause, and thank them for their willingness
-to take people on board and educate them. 
+to take people on board and educate them.
 
 Below I have linked some more websites you may like to check out:
 
@@ -80,5 +81,3 @@ Below I have linked some more websites you may like to check out:
 [Malaysian Nature Society](https://www.mns.my/)
 
 [Forest Research Institue Malaysia](https://www.frim.gov.my/)
-
-
