@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "essays"
-tag: essays
+title: "writing"
+tag: writing
 robots: noindex
 ---
