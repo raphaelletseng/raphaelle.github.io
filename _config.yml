@@ -19,3 +19,5 @@ include:
 
 future: true
 timezone: "Asia/Kuala_Lumpur"
+
+google_analytics: 186144273
