@@ -4,7 +4,7 @@ title: about me
 permalink: /about/
 nav_order: 3
 ---
-<img style="padding: 5px;" align="left" id="about-img"  src="/assets/img/raph_about2.jpg" width = "200">
+<img class="main-img" id="about-img"  src="/assets/img/raph_about2.jpg" width = "200">
 
 
 Hi! I'm Raph, a final year Mathematics and Computer Science major at McGill University, in Montreal, Canada.
