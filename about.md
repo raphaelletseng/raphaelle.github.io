@@ -4,6 +4,8 @@ title: about me
 permalink: /about/
 nav_order: 3
 ---
+<img align="left" id="about-img"  src="/assets/img/raph_about2.jpg" width = "200">
+
 
 Hi! I'm Raph, a final year Mathematics and Computer Science major at McGill University, in Montreal, Canada.
 I am interested in:
@@ -15,9 +17,5 @@ Currently, I am part of the **[McGill Artificial Intelligence Society](http://mc
 I drink gallons of tea, thrive in warm weather, and have a soft spot for cats. I am currently fostering a large-pawed, black shadow from the [SPCA](https://www.spca.com/en/) named Kido.
 
 Send me a **[message](mailto:raphaelletseng@gmail.com)** if you're interested in working together (Or if you have cute cat photos to share)!
-
-<p align ="center">
-  <img  id="about-img"  src="/assets/img/raph_about2.PNG" width = "200">
-</p>
 
 <link rel="stylesheet" href="../assets/css/index.css">
