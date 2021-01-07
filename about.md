@@ -17,7 +17,7 @@ I drink gallons of tea, thrive in warm weather, and have a soft spot for cats. I
 Send me a **[message](mailto:raphaelletseng@gmail.com)** if you're interested in working together (Or if you have cute cat photos to share)!
 
 <p align ="center">
-  <img  id="about-img"  src="/assets/img/raph_about.PNG" width = "400">
+  <img  id="about-img"  src="/assets/img/raph_about2.PNG" width = "200">
 </p>
 
 <link rel="stylesheet" href="../assets/css/index.css">
