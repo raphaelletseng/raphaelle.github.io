@@ -9,12 +9,13 @@
    z-index: -999;
    height: auto;
    width: 100%;
-   position: center;
+   position: left;
    -webkit-transition: opacity 2s ease-in-out;
    -moz-transition: opacity 2s ease-in-out;
    -o-transition: opacity 2s ease-in-out;
    -ms-transition: opacity 2s ease-in-out;
    transition: opacity 2s ease-in-out;
+   padding-right: 10px;
 
    /*
    -webkit-transition: background 2s linear;
