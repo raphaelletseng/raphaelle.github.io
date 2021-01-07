@@ -9,14 +9,12 @@
    z-index: -999;
    height: auto;
    width: 100%;
-   position: relative;
-   float: left;
+   position: center;
    -webkit-transition: opacity 2s ease-in-out;
    -moz-transition: opacity 2s ease-in-out;
    -o-transition: opacity 2s ease-in-out;
    -ms-transition: opacity 2s ease-in-out;
    transition: opacity 2s ease-in-out;
-   padding-right: 10px;
 
    /*
    -webkit-transition: background 2s linear;
@@ -29,9 +27,20 @@
 #primary-mainimg {
   opacity: 1
 }
-.left{
-  dispaly: block;
-  padding: 2px;
+figure{
+  display:flex;
+  float: left;
+  flex-flow:column;
+  padding: 5px;
+  max-width: 250px;
+  margin: auto;
+  padding-right: 7%;
+}
+
+figcaption{
+  text-align: center;
+  padding: 3px;
+  font: smaller;
 }
 
 .center{
