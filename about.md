@@ -15,7 +15,7 @@ I am interested in:
 - exploring artificial intelligence in areas where it can affect positive social and environmental change
 - the ethics of AI  <br>
 
-I work under **[Prof. Jin Guo](http://jguo-web.com/)** in the [Knowledge and Software Technology (KAST)](http://jguo-web.com/lab.html) lab, researching the relationship between privacy and fairness in Machine Learning models.
+I work under **[Prof. Jin Guo](http://jguo-web.com/)** in the [Knowledge and Software Technology (KAST)](http://jguo-web.com/lab.html) lab, researching the impact of fairness mitigation techniques on privacy preserving Machine Learning.
 
 Currently, I am part of the **[McGill Artificial Intelligence Society](http://mcgillai.com)**, where I have met a lovely community of humans who share and broaden my interests! I also volunteer in my spare time as a web developer with **[Earth Hero](https://www.earthhero.org)**, another awesome group of activists passionate about effectively responding to the climate emergency.  
 
