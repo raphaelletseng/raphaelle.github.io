@@ -25,21 +25,38 @@
    */
 }
 #primary-mainimg {
-  opacity: 1
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+
 }
 figure{
   display:flex;
+  flex-flow: column;
   float: left;
-  flex-flow:column;
   padding: 5px;
   max-width: 250px;
   margin: auto;
   padding-right: 7%;
 }
 
-figcaption{
+figure img{
+  margin-bottom: 7%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 600px){
+  figure {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 7px;
+  }
+
+}
+
+figure figcaption{
   text-align: center;
-  padding: 3px;
+  padding: 5px;
   font: smaller;
 }
 
