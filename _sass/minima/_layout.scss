@@ -2,8 +2,8 @@
  * Site header
  */
  .site-header {
-   border-top: 5px solid $border-color-03;
-   border-bottom: 1px solid $border-color-01;
+   //border-top: 5px solid; //$border-color-03;
+   //border-bottom: 1px solid; //$border-color-01;
    min-height: $spacing-unit * 1.865;
    line-height: $base-line-height * $base-font-size * 2.25;
    background-color: #D2F3F8;//#6DD0D7;//#26FDD2;
@@ -19,6 +19,7 @@
    float: left;
    color: #2b2b2b; //darken(#65C7BC, 25%);
 
+
    @include media-query($on-palm) {
      padding-right: 45px;
    }
@@ -27,6 +28,14 @@
    &:visited {
      color: #2b2b2b;//$site-title-color;
    }
+ }
+ .site-title::before{
+   content: url("/logo-110.png");
+   display: inline-block;
+   position: relative;
+   width: 40px;
+   top: 5px;
+   bottom: -5px;
  }
 
  .site-nav {
