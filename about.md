@@ -19,7 +19,7 @@ I work under **[Prof. Jin Guo](http://jguo-web.com/)** in the [Knowledge and Sof
 
 Currently, I am part of the **[McGill Artificial Intelligence Society](http://mcgillai.com)**, where I have met a lovely community of humans who share and broaden my interests! I also volunteer in my spare time as a web developer with **[Earth Hero](https://www.earthhero.org)**, another awesome group of activists passionate about effectively responding to the climate emergency.  
 
-I drink gallons of tea, thrive in warm weather, and have a soft spot for cats. I am currently fostering a large-pawed, black shadow from the [SPCA](https://www.spca.com/en/) named Kido.
+I drink gallons of tea, thrive in warm weather, and have a soft spot for cats. I am currently fostering a very friendly chonk from the [SPCA](https://www.spca.com/en/) named Obi-Wan.
 
 Send me a **[message](mailto:raphaelletseng@gmail.com)** if you're interested in working together (Or if you have cute cat photos to share)!
 
