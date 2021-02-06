@@ -1,4 +1,4 @@
-# Github Pages
+# Raph's Github Page
 This is a personal github pages to record anything and everything about what I'm learning. 
 The site can be seen at [https://raphaelletseng.github.io](https://raphaelletseng.github.io).
 
