@@ -15,11 +15,11 @@ I am interested in:
 - exploring artificial intelligence in areas where it can affect positive social and environmental change
 - the ethics of AI  <br>
 
-I work under **[Prof. Jin Guo](http://jguo-web.com/)** in the [Knowledge and Software Technology (KAST)](http://jguo-web.com/lab.html) lab, researching the impact of fairness mitigation techniques on privacy preserving Machine Learning.
+This semester, I worked under **[Prof. Jin Guo](http://jguo-web.com/)** in the [Knowledge and Software Technology (KAST)](http://jguo-web.com/lab.html) lab, researching the impact of fairness mitigation techniques on privacy preserving Machine Learning. This summer, I'm looking forward to being part of the [2021 AI4Good lab](https://www.ai4goodlab.com/).
 
-Currently, I am part of the **[McGill Artificial Intelligence Society](http://mcgillai.com)**, where I have met a lovely community of humans who share and broaden my interests! I also volunteer in my spare time as a web developer with **[Earth Hero](https://www.earthhero.org)**, another awesome group of activists passionate about effectively responding to the climate emergency.  
+On campus, I am part of the **[McGill Artificial Intelligence Society](http://mcgillai.com)**, where I have met a lovely community of humans who share and broaden my interests! I also volunteer in my spare time as a web developer with **[Earth Hero](https://www.earthhero.org)**, another awesome group of activists passionate about effectively responding to the climate emergency.  
 
-I drink gallons of tea, thrive in warm weather, and have a soft spot for cats. I am currently fostering a young, wide-eyed kitty from the [SPCA](https://www.spca.com/en/) named Chance.
+I drink gallons of tea, thrive in warm weather, and have a soft spot for cats. I am currently fostering a sweet, wide-eyed kitty from the [SPCA](https://www.spca.com/en/) named Chance.
 
 Send me a **[message](mailto:raphaelletseng@gmail.com)** if you're interested in working together (Or if you have cute cat photos to share)!
 
