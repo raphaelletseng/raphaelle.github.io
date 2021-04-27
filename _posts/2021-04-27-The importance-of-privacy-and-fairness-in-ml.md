@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The Importance of Privacy and Fairness in Machine Learning'
+title: "The Importance of Privacy and Fairness in Machine Learning"
 date: 2021-04-27
 tags: ML
 ---
@@ -12,7 +12,7 @@ Both privacy and fairness strive to protect the rights of users and subjects of 
 systems, and more often than not, work in tandem with each other. Privacy may be
 defined as 'The condition of not having undocumented personal knowledge about one
 possessed by others' Dwork and Roth (2014). Fairness has always been a more complicated notion to define, especially in the realm of computer science. Fairness, with regards
-to the law, is ’seeking to treat people justly on an individual basis with regards to the use of information regarding them’. Algorithmic fairness stipulates that ’A person’s experience with an information system should not irrelevantly depend on their personal
+to the law, is ’seeking to treat people justly on an individual basis with regards to the use of information regarding them’. Algorithmic fairness stipulates that ’A person’s experience with an information system should not irrelevantly depend on their personal
 characteristics’ Ekstrand et al. (2018). We measure an AI system’s fairness based on its
 impact on people and the harm it may cause. Allocation harms occur when a system
 makes decisions, for example, to assign loans. A quality of service harm occurs when a
