@@ -2,7 +2,7 @@
 layout: post
 title: 'The Importance of Privacy and Fairness in Machine Learning'
 date: 2021-04-27
-tags: ML, 
+tags: ML
 ---
 
 As our reliance on data and machine learning decision systems continues to increase, we have a responsibility to ensure that the models we train guarantee individual
