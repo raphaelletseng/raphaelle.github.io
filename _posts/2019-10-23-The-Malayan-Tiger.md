@@ -6,6 +6,8 @@ tags: conservation wildlife NGOs jungle writing
 ---
 ### In the 1950's, more than **3000** tigers lived and ranged across the jungles of Peninsula Malaysia. As of 2019, less than **150** can be found in the wild.
 
+*This article was published [The Star](https://www.thestar.com.my/opinion/letters/2019/11/09/on-the-brink-of-extinction) on 09 November 2019.* 
+
 The Malayan tiger has been listed as critically endangered by the [IUCN Red List](http://www.wwf.org.my/?19945/The-Malayan-tiger-is-officially-Critically-Endangered), the world’s most comprehensive inventory of the conservation status of species. It faces challenges on two major fronts:
 
 1. Loss of habitat through deforestation and logging
