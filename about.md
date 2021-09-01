@@ -5,7 +5,7 @@ permalink: /about/
 nav_order: 3
 ---
 <figure>
-<img id="about-img" align="left" src="/assets/img/better-headshot.jpg" alt="Picture of me on Mont Royal">
+<img id="about-img" align="left" src="/assets/img/241045937_1632005043858284_5118930862563598794_n (1).jpg" alt="Picture of me on Mont Royal">
 <figcaption>Beautiful fall / autumn leaves on Mont Royal!</figcaption>
 </figure>
 
