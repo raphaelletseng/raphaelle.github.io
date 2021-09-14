@@ -10,7 +10,7 @@ nav_order: 3
 </figure>
 
 
-Hi! I'm Raph, a final year Mathematics and Computer Science major at McGill University, in Montreal, Canada.
+Hi! I'm Raph. I'm an Associate Consultant at Slalom, Montreal, Canada. I have a degree in Mathematics and Computer Science from McGill University.
 I am interested in:
 - exploring artificial intelligence in areas where it can affect positive social and environmental change
 - the ethics of AI  <br>

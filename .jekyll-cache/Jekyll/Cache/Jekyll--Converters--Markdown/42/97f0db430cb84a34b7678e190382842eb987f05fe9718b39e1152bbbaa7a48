@@ -1,0 +1,13 @@
+I"�<p>As our reliance on data and machine learning decision systems continues to increase, we have a responsibility to ensure that the models we train guarantee individual
+privacy and do not exacerbate existing social disparities and unfair judgements. Privacy
+and fairness have been discussed more and more as the topic of ethics in artificial intelligence (AI) has gained prominence, however they are oven covered as distinct topics.
+Both privacy and fairness strive to protect the rights of users and subjects of software
+systems, and more often than not, work in tandem with each other. Privacy may be
+defined as ‘The condition of not having undocumented personal knowledge about one
+possessed by others’ Dwork and Roth (2014). Fairness has always been a more complicated notion to define, especially in the realm of computer science. Fairness, with regards
+to the law, is ’seeking to treat people justly on an individual basis with regards to the use of information regarding them’. Algorithmic fairness stipulates that ’A person’s experience with an information system should not irrelevantly depend on their personal
+characteristics’ Ekstrand et al. (2018). We measure an AI system’s fairness based on its
+impact on people and the harm it may cause. Allocation harms occur when a system
+makes decisions, for example, to assign loans. A quality of service harm occurs when a
+system works differently for one group of people vs another.</p>
+:ET
