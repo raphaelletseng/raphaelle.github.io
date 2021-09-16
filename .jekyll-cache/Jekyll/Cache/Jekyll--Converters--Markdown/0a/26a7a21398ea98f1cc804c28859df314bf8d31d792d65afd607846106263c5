@@ -1,0 +1,23 @@
+I"�<figure>
+<img id="about-img" align="left" src="/assets/img/raph_about.PNG" alt="Picture of me on Mont Royal" />
+<figcaption>Hello!</figcaption>
+</figure>
+
+<p>Hi! I’m Raph. I’m an Associate Consultant at Slalom, Montreal, Canada. I have a degree in Mathematics and Computer Science from McGill University.
+I am interested in:</p>
+<ul>
+  <li>exploring artificial intelligence in areas where it can affect positive social and environmental change</li>
+  <li>the ethics of AI  <br /></li>
+</ul>
+
+<p>This semester, I worked under <strong><a href="http://jguo-web.com/">Prof. Jin Guo</a></strong> in the <a href="http://jguo-web.com/lab.html">Knowledge and Software Technology (KAST)</a> lab, researching the impact of fairness mitigation techniques on privacy preserving Machine Learning. This summer, I’m looking forward to being part of the <a href="https://www.ai4goodlab.com/">2021 AI4Good lab</a>.</p>
+
+<p>On campus, I am part of the <strong><a href="http://mcgillai.com">McGill Artificial Intelligence Society</a></strong>, where I have met a lovely community of humans who share and broaden my interests! I also volunteer in my spare time as a web developer with <strong><a href="https://www.earthhero.org">Earth Hero</a></strong>, another awesome group of activists passionate about effectively responding to the climate emergency.</p>
+
+<p>I drink gallons of tea, thrive in warm weather, and have a soft spot for cats. I am currently fostering a tiny, energetic kitty from the <a href="https://www.spca.com/en/">SPCA</a> named Valentin.</p>
+
+<p>Send me a <strong><a href="mailto:raphaelletseng@gmail.com">message</a></strong> if you’re interested in working together (Or if you have cute cat photos to share)!</p>
+
+<link rel="stylesheet" href="../assets/css/index.css" />
+
+:ET
