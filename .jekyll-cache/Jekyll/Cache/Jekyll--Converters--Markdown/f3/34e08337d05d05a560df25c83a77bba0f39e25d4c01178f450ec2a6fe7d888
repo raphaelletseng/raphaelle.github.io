@@ -1,0 +1,27 @@
+I"Å<div class="projects">
+  <div class="container">
+
+    <div class="graphic-container">
+      <a href="https://raphaelletseng.github.io/datallite-site/#home"><img src="/assets/img/projects/datallite.jpg" alt="Datallite" class="image" /></a>
+      <div class="overlay">
+        <div class="text"> React </div>
+      </div>
+    </div>
+
+    <div class="graphic-container">
+      <a href="https://mcgillai.com"><img src="/assets/img/projects/mcgillai.jpg" alt="mcgillai" class="image" /></a>
+      <div class="overlay">
+        <div class="text"> React </div>
+      </div>
+    </div>
+
+
+    <h1> Datallite </h1>
+    <h1> McGill AI </h1>
+
+  </div>
+</div>
+
+<link rel="stylesheet" href="../assets/css/projects.css" />
+
+:ET

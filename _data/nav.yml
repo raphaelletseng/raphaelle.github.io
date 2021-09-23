@@ -4,5 +4,7 @@ navigation:
     url: /about/
   - title: artwork
     url: /art/
+  - title: projects
+    url: /projects/
   - title: blog
     url: /blog/
