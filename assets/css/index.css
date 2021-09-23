@@ -68,6 +68,15 @@ figure figcaption{
   margin-left: 3%;
   font: smaller;
 }
+@media screen and (max-width: 600px){
+  figure figcaption{
+    margin-top: 10px;
+    float: none;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
 .center{
   display: block;
