@@ -1,0 +1,16 @@
+I"ƒ<p> This was submitted as part of McGill's COMP400 course. </p>
+
+<div id="adobe-dc-view" style="width: 100%;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){
+		var adobeDCView = new AdobeDC.View({clientId: "739c9c6a7b6c4ffabdaabb156b9b0893", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "../assets/privacy_fairness_Report.pdf"}},
+			metaData:{fileName: "privacy_fairness_Report.pdf"}
+		}, {embedMode: "IN_LINE", showDownloadPDF: false, showPrintPDF: false});
+	});
+</script>
+
+:ET
