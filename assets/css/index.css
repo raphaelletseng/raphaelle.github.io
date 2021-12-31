@@ -6,6 +6,18 @@
   position: relative;
 }
 
+.row{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: auto;
+}
+
+.col1-text {
+  vertical-align: middle;
+  position: relative;
+  top: 2em;
+}
+
 
 .main-image {
    z-index: -999;
@@ -34,15 +46,24 @@
 figure{
   display:flex;
   flex-flow: column;
-  float: left;
-  margin-right: 7%;
-  margin-left: 3%;
-  padding: 10px;
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
 }
 
+#home-img{
+  max-width: 250px;
+  margin: auto;
+  border-radius: 5px;
+
+}
 #about-img{
   max-width: 250px;
   margin: auto;
+  border-radius: 5px;
+  margin: 10px 5em 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 figure img{
@@ -54,7 +75,7 @@ figure img{
     margin-left:auto;
     margin-right: auto;
     max-width: 100%;
-    padding: 7px;
+    padding: 0px;
   }
 
 }
@@ -64,8 +85,8 @@ figure figcaption{
   text-align: center;
   padding: 10px;
   float: left;
-  margin-right: 7%;
-  margin-left: 3%;
+  margin-right: auto;
+  margin-left: auto;
   font: smaller;
 }
 @media screen and (max-width: 600px){
@@ -96,6 +117,48 @@ figure figcaption{
   font-weight: bold;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+#misc figure{
+  display:inline-block;
+  flex-flow: column;
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+}
+
+#misc figure img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 600px){
+  #misc figure {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 0px;
+  }
+
+}
+
+
+#misc figure figcaption{
+  text-align: center;
+  padding: 10px;
+  float: center;
+  margin-right: auto;
+  margin-left: auto;
+  font: smaller;
+}
+@media screen and (max-width: 600px){
+  #misc figure figcaption{
+    margin-top: 10px;
+    float: none;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /*---- Blog post: Notebook Doodles ---*/

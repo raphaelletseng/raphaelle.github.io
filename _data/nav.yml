@@ -1,7 +1,7 @@
 nav_items_title: ACME Documentation
 navigation:
-  - title: about me
-    url: /about/
+  - title: misc.
+    url: /misc/
   - title: artwork
     url: /art/
   - title: projects

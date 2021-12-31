@@ -4,6 +4,10 @@ preview:
   original: identity_phase_2.jpg
 
 pictures:
+- filename: homes-poster
+  original: homes-poster.png
+  title: Homes and houses
+  caption: Gift and houses
 - filename: identity_phase_1
   original: identity_phase_1.jpg
   title: Identity Phase 1
