@@ -20,7 +20,7 @@ I'm currently an Associate Consultant at <a href ="https://www.slalom.com/"> Sla
 Send me a <a href ="mailto:raphaelletseng@gmail.com">message</a> if you want to get in touch (Or if you have cute cat photos to share)!
 </p>
 </div>
-<div>
+<div class = "col2">
 <figure id = home>
 <img id="home-img" align="left" src="/assets/img/better-headshot.jpg" alt="Picture of me on Mont Royal">
 </figure>

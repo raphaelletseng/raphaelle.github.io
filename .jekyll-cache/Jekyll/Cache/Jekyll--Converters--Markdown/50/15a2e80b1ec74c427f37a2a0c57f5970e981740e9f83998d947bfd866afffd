@@ -1,4 +1,4 @@
-I"È<div>
+I"Ö<div>
   <h1> Salut, I'm Raph! </h1>
 </div>
 
@@ -6,7 +6,7 @@
 
 <div class="col1">
 
-<p class="col1-text">This is where I occasionally write about the things that I am learning about. I am interested in everything from the ethics of AI and exploring the areas where tech can affect positive social and environmental change, to literature, art, and the outdoors.
+<p class="col1-text">This is where I occasionally write about the things that I am learning about. I am interested in everything, from the ethics of AI and exploring the areas where tech can affect positive social and environmental change, to literature, art, and the outdoors.
 <br />
 <br />
 
@@ -16,7 +16,7 @@ I'm currently an Associate Consultant at <a href="https://www.slalom.com/"> Slal
 Send me a <a href="mailto:raphaelletseng@gmail.com">message</a> if you want to get in touch (Or if you have cute cat photos to share)!
 </p>
 </div>
-<div>
+<div class="col2">
 <figure id="home">
 <img id="home-img" align="left" src="/assets/img/better-headshot.jpg" alt="Picture of me on Mont Royal" />
 </figure>
