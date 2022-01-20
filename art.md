@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: artwork
-permalink: /art/
+permalink: /art/ 
 support: [jquery, gallery]
 nav_order: 2
 ---
