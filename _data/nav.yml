@@ -2,9 +2,11 @@ nav_items_title: ACME Documentation
 navigation:
   - title: misc.
     url: /misc/
-  - title: artwork
+  - title: art
     url: /art/
   - title: projects
     url: /projects/
   - title: blog
     url: /blogposts/
+  - title: react
+    url: https://raphaelletseng.github.io/mpreact
