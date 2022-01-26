@@ -4,9 +4,7 @@ navigation:
     url: /misc/
   - title: art
     url: /art/
-  - title: projects
-    url: /projects/
   - title: blog
     url: /blogposts/
-  - title: react
+  - title: projects & cats
     url: https://raphaelletseng.github.io/mpreact
