@@ -2,7 +2,7 @@
 layout: post
 title: "Notebook Doodles (and some CSS/ JavaScript fiddling)"
 date: 2021-02-05
-tags: art web-dev
+tags: art web-dev personal
 ---
 
 I've been keeping notebooks as journals / agendas / sketchbooks etc. for over six years now. They act as places where I can make endless lists, doodle, write, and brainstorm.

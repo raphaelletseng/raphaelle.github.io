@@ -10,11 +10,14 @@ layout: default
 
 <div class = "col1">
 
-<p class="col1-text">This is where I occasionally write about the things that I am learning about. I am interested in everything, from the ethics of AI and exploring the areas where tech can affect positive social and environmental change, to literature, art, and the outdoors.
+<p class="col1-text">This is where I occasionally write about the things that I am learning about and the adventures I'm going on. I am interested in everything, from the ethics of AI and exploring the areas where tech can affect positive social and environmental change, to literature, art, and the outdoors.
 <br/>
 <br/>
 
 I'm currently an Associate Consultant at <a href ="https://www.slalom.com/"> Slalom</a>, Montreal, Canada, where I work in Data and Analytics. I have a degree in Mathematics and Computer Science from McGill University.
+<br/>
+<br/>
+I volunteer in my spare time at <a href = "https://futureearth.org/">Future Earth</a> as a researcher, where I investigate the intersection of digital technologies and sustainability.
 <br/>
 <br/>
 Send me a <a href ="mailto:raphaelletseng@gmail.com">message</a> if you want to get in touch (Or if you have cute cat photos to share)!
