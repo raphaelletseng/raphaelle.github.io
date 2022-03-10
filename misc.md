@@ -15,7 +15,7 @@ I participated in the **[2021 AI4Good lab](https://www.ai4goodlab.com/)**, where
 
 I have also volunteered as a web developer with **[Earth Hero](https://www.earthhero.org)**, an awesome group of activists passionate about effectively responding to the climate emergency.  
 
-I drink gallons of tea, thrive in warm weather, and enjoy rock climbing. I have a soft spot for cats and occasionally foster for the **[SPCA](https://www.spca.com/en/)**.
+I drink gallons of tea, thrive in warm weather, and enjoy rock climbing. I have a soft spot for cats and occasionally foster for the **[SPCA](https://www.spca.com/en/)**. (Check out kitty pics <a href="https://raphaelletseng.github.io/mpreact/#/cats">here</a>.)
 
 
 

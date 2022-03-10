@@ -17,7 +17,7 @@ layout: default
 I'm currently an Associate Consultant at <a href ="https://www.slalom.com/"> Slalom</a>, Montreal, Canada, where I work in Data and Analytics. I have a degree in Mathematics and Computer Science from McGill University.
 <br/>
 <br/>
-I volunteer in my spare time at <a href = "https://futureearth.org/">Future Earth</a> as a researcher, where I investigate the intersection of digital technologies and sustainability.
+I volunteer in my spare time at <a href = "https://futureearth.org/">Future Earth</a> and <a href= "https://sustainabilitydigitalage.org/" >Sustainability in the Digital Age</a> as a researcher, where I investigate the intersection of digital technologies and sustainability.
 <br/>
 <br/>
 Send me a <a href ="mailto:raphaelletseng@gmail.com">message</a> if you want to get in touch (Or if you have cute cat photos to share)!

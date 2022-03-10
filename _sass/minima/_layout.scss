@@ -6,7 +6,8 @@
    //border-bottom: 1px solid; //$border-color-01;
    min-height: $spacing-unit * 1.865;
    line-height: $base-line-height * $base-font-size * 2.25;
-   background-color: lighten(#2b2b2b, 70%);//#6DD0D7;//#26FDD2;
+   background-color: #99FFCE;
+   //background-color: lighten(#2b2b2b, 70%);//#6DD0D7;//#26FDD2;
    // Positioning context for the mobile navigation icon
    position: relative;
  }
@@ -135,7 +136,7 @@
  .site-footer {
    border-top: 0px solid $border-color-01;
    padding: $spacing-unit 0;
-   background-color: lighten(#2b2b2b, 70%);
+   background-color: #99FFCE;
  }
 
  .footer-heading {
@@ -333,8 +334,9 @@
      a {
        display: block;
        padding: $spacing-unit / 4;
-       border: 1px solid $border-color-01;
-       &:hover { border-color: $border-color-02 }
+       //border: 1px solid $border-color-01;
+       //&:hover { border-color: $border-color-02 }
+       &:hover { color: #2b2b2b;}
      }
    }
  }
