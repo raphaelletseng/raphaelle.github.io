@@ -25,7 +25,7 @@ Send me a <a href ="mailto:raphaelletseng@gmail.com">message</a> if you want to 
 </div>
 <div class = "col2">
 <figure id = home>
-<img id="home-img" align="left" src="/assets/img/better-headshot.jpg" alt="Picture of me on Mont Royal">
+<img id="home-img" src="/assets/img/better-headshot.jpg" alt="Picture of me on Mont Royal">
 </figure>
 </div>
 </div>
