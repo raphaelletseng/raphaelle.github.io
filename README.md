@@ -1,10 +1,3 @@
-<h5 align="center">
-  <br>
-  <a href="https://www.asyncapi.org"><img src="assets/github-repobanner-htmltemp.png" alt="AsyncAPI logo" width="200"></a>
-  <br>
-  HTML template for the AsyncAPI Generator
-</h5>
-
 # Raph's Github Page
 This is a personal github pages to record anything and everything about what I'm learning.
 Helloworld
